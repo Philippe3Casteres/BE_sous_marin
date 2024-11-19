@@ -6,5 +6,5 @@ function Hnew = Hstatic(A, B, C, K)
     omega = inv(M);
     
     % Extract the submatrices and compute Hnew
-    Hnew = omega(1:size(A, 1), size(A, 2)+1:end) + K * omega(size(A, 1)+1:end, size(A, 2)+1:end);
+    Hnew = omega(5:6, 5:6) + K * omega(1:4, 5:6);
 end
