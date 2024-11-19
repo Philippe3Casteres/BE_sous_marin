@@ -28,7 +28,7 @@ function stabilite_syst(A)
         fprintf('Le système possède %d valeur(s) propre(s) négative(s).\n', n - State2 - State1);
         fprintf('Le système possède %d valeur(s) propre(s) nulle(s).\n', State2);
     end
-    fprintf('Les valeur propres du système sont : .\n');
-    Vp
+    
+    damp(A)
 
 end
